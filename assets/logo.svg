@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" role="img" aria-labelledby="title desc">
+<title id="title">flaco332 | terminal mark</title>
+<desc id="desc">Original geometric F, command chevron and terminal cursor.</desc>
+<rect x="1" y="1" width="126" height="126" rx="16" fill="#0c131d" stroke="#2c3e52"/>
+<g transform="translate(23 25) scale(1.5)" fill="none" stroke="#63dfd3" stroke-width="6" stroke-linecap="square" stroke-linejoin="miter"><path d="M7 44V8H36M7 25H28M42 16L54 28L42 40"/><path d="M27 49H43" stroke-width="4"/></g>
+</svg>

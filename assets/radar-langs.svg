@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="440" height="468" viewBox="0 0 440 468" role="img" aria-labelledby="title desc">
+<title id="title">Language map</title>
+<desc id="desc">Python, C, C++, TypeScript, JavaScript, Bash. Equal spokes express coverage, without scores or percentages.</desc>
+<rect x="1" y="1" width="438" height="466" rx="16" fill="#0c131d" stroke="#2c3e52"/>
+<text x="26" y="34" fill="#63dfd3" font-family="Consolas, 'Liberation Mono', monospace" font-size="14" font-weight="400" text-anchor="start">07</text>
+<text x="65" y="34" fill="#a3b4c7" font-family="Consolas, 'Liberation Mono', monospace" font-size="14" font-weight="400" text-anchor="start">languages / equal spokes</text>
+<line x1="26" y1="52" x2="414" y2="52" stroke="#2c3e52" stroke-width="1"/>
+<text x="26" y="87" fill="#edf4fa" font-family="'Segoe UI', Arial, sans-serif" font-size="25" font-weight="600" text-anchor="start">Language map</text>
+<circle cx="220" cy="248" r="37" fill="none" stroke="#2c3e52" stroke-width="1"/>
+<circle cx="220" cy="248" r="67" fill="none" stroke="#2c3e52" stroke-width="1"/>
+<circle cx="220" cy="248" r="98" fill="none" stroke="#2c3e52" stroke-width="1"/>
+<line x1="220" y1="248" x2="220.0" y2="150.0" stroke="#2c3e52" stroke-width="1"/>
+<circle cx="220.0" cy="150.0" r="7" fill="#0c131d" stroke="#63dfd3" stroke-width="2"/>
+<circle cx="220.0" cy="150.0" r="2" fill="#63dfd3" stroke="none" stroke-width="1"/>
+<text x="220" y="120" fill="#edf4fa" font-family="'Segoe UI', Arial, sans-serif" font-size="18" font-weight="600" text-anchor="middle">Python</text>
+<line x1="220" y1="248" x2="304.87" y2="199.0" stroke="#2c3e52" stroke-width="1"/>
+<circle cx="304.87" cy="199.0" r="7" fill="#0c131d" stroke="#63dfd3" stroke-width="2"/>
+<circle cx="304.87" cy="199.0" r="2" fill="#63dfd3" stroke="none" stroke-width="1"/>
+<text x="354" y="187" fill="#edf4fa" font-family="'Segoe UI', Arial, sans-serif" font-size="18" font-weight="600" text-anchor="middle">C</text>
+<line x1="220" y1="248" x2="304.87" y2="297.0" stroke="#2c3e52" stroke-width="1"/>
+<circle cx="304.87" cy="297.0" r="7" fill="#0c131d" stroke="#63dfd3" stroke-width="2"/>
+<circle cx="304.87" cy="297.0" r="2" fill="#63dfd3" stroke="none" stroke-width="1"/>
+<text x="354" y="323" fill="#edf4fa" font-family="'Segoe UI', Arial, sans-serif" font-size="18" font-weight="600" text-anchor="middle">C++</text>
+<line x1="220" y1="248" x2="220.0" y2="346.0" stroke="#2c3e52" stroke-width="1"/>
+<circle cx="220.0" cy="346.0" r="7" fill="#0c131d" stroke="#63dfd3" stroke-width="2"/>
+<circle cx="220.0" cy="346.0" r="2" fill="#63dfd3" stroke="none" stroke-width="1"/>
+<text x="220" y="387" fill="#edf4fa" font-family="'Segoe UI', Arial, sans-serif" font-size="18" font-weight="600" text-anchor="middle">TypeScript</text>
+<line x1="220" y1="248" x2="135.13" y2="297.0" stroke="#2c3e52" stroke-width="1"/>
+<circle cx="135.13" cy="297.0" r="7" fill="#0c131d" stroke="#63dfd3" stroke-width="2"/>
+<circle cx="135.13" cy="297.0" r="2" fill="#63dfd3" stroke="none" stroke-width="1"/>
+<text x="86" y="323" fill="#edf4fa" font-family="'Segoe UI', Arial, sans-serif" font-size="18" font-weight="600" text-anchor="middle">JavaScript</text>
+<line x1="220" y1="248" x2="135.13" y2="199.0" stroke="#2c3e52" stroke-width="1"/>
+<circle cx="135.13" cy="199.0" r="7" fill="#0c131d" stroke="#63dfd3" stroke-width="2"/>
+<circle cx="135.13" cy="199.0" r="2" fill="#63dfd3" stroke="none" stroke-width="1"/>
+<text x="86" y="187" fill="#edf4fa" font-family="'Segoe UI', Arial, sans-serif" font-size="18" font-weight="600" text-anchor="middle">Bash</text>
+<circle cx="220" cy="248" r="31" fill="#1a323b" stroke="#63dfd3" stroke-width="1"/>
+<text x="220" y="254" fill="#63dfd3" font-family="Consolas, 'Liberation Mono', monospace" font-size="22" font-weight="400" text-anchor="middle">&lt;/&gt;</text>
+<line x1="26" y1="420" x2="414" y2="420" stroke="#2c3e52" stroke-width="1"/>
+<text x="26" y="448" fill="#a3b4c7" font-family="Consolas, 'Liberation Mono', monospace" font-size="13" font-weight="400" text-anchor="start">COVERAGE / NO PROFICIENCY SCORES</text>
+</svg>

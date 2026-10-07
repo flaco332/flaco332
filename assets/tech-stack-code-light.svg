@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="440" height="370" viewBox="0 0 440 370" role="img" aria-labelledby="title desc">
+<title id="title">Languages &amp; web</title>
+<desc id="desc">SYSTEMS / SCRIPTING: C · C++ · Python · Bash; WEB LANGUAGES: TypeScript · JavaScript; FRONTEND: React · Vite · Tailwind CSS</desc>
+<rect x="1" y="1" width="438" height="368" rx="16" fill="#f7f9fc" stroke="#b9c8d8"/>
+<text x="26" y="34" fill="#00776e" font-family="Consolas, 'Liberation Mono', monospace" font-size="14" font-weight="400" text-anchor="start">04</text>
+<text x="65" y="34" fill="#4e6379" font-family="Consolas, 'Liberation Mono', monospace" font-size="14" font-weight="400" text-anchor="start">stack/code-web</text>
+<line x1="26" y1="52" x2="414" y2="52" stroke="#b9c8d8" stroke-width="1"/>
+<text x="26" y="87" fill="#16293b" font-family="'Segoe UI', Arial, sans-serif" font-size="25" font-weight="600" text-anchor="start">Languages &amp; web</text>
+<text x="26" y="124" fill="#00776e" font-family="Consolas, 'Liberation Mono', monospace" font-size="13" font-weight="400" text-anchor="start">SYSTEMS / SCRIPTING</text>
+<text x="26" y="151" fill="#16293b" font-family="'Segoe UI', Arial, sans-serif" font-size="18" font-weight="400" text-anchor="start">C · C++ · Python · Bash</text>
+<text x="26" y="187" fill="#00776e" font-family="Consolas, 'Liberation Mono', monospace" font-size="13" font-weight="400" text-anchor="start">WEB LANGUAGES</text>
+<text x="26" y="214" fill="#16293b" font-family="'Segoe UI', Arial, sans-serif" font-size="18" font-weight="400" text-anchor="start">TypeScript · JavaScript</text>
+<text x="26" y="250" fill="#00776e" font-family="Consolas, 'Liberation Mono', monospace" font-size="13" font-weight="400" text-anchor="start">FRONTEND</text>
+<text x="26" y="277" fill="#16293b" font-family="'Segoe UI', Arial, sans-serif" font-size="18" font-weight="400" text-anchor="start">React · Vite · Tailwind CSS</text>
+</svg>

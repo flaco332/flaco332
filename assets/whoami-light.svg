@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="225" viewBox="0 0 840 225" role="img" aria-labelledby="title desc">
+<title id="title">whoami | engineering through exploration</title>
+<desc id="desc">Understand the system, trace the signal, secure the path. Interests include networks, low-level programming, infrastructure, Computer Vision and ML.</desc>
+<rect x="1" y="1" width="838" height="223" rx="16" fill="#f7f9fc" stroke="#b9c8d8"/>
+<text x="32" y="37" fill="#4e6379" font-family="Consolas, 'Liberation Mono', monospace" font-size="14" font-weight="400" text-anchor="start">01 / IDENTITY</text>
+<text x="32" y="87" fill="#16293b" font-family="'Segoe UI', Arial, sans-serif" font-size="38" font-weight="600" text-anchor="start">Understand the system.</text>
+<text x="32" y="132" fill="#00776e" font-family="'Segoe UI', Arial, sans-serif" font-size="32" font-weight="600" text-anchor="start">Trace the signal. Secure the path.</text>
+<line x1="32" y1="157" x2="808" y2="157" stroke="#b9c8d8" stroke-width="1"/>
+<text x="32" y="195" fill="#4e6379" font-family="Consolas, 'Liberation Mono', monospace" font-size="17" font-weight="400" text-anchor="start">NETWORKS</text>
+<text x="223" y="195" fill="#4e6379" font-family="Consolas, 'Liberation Mono', monospace" font-size="17" font-weight="400" text-anchor="start">LOW-LEVEL</text>
+<text x="425" y="195" fill="#4e6379" font-family="Consolas, 'Liberation Mono', monospace" font-size="17" font-weight="400" text-anchor="start">INFRASTRUCTURE</text>
+<text x="686" y="195" fill="#4e6379" font-family="Consolas, 'Liberation Mono', monospace" font-size="17" font-weight="400" text-anchor="start">CV / ML</text>
+</svg>

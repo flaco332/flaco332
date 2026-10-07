@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="308" viewBox="0 0 840 308" role="img" aria-labelledby="title desc">
+<title id="title">flaco332 | systems &amp; security</title>
+<desc id="desc">Terminal-inspired profile for a Systems Engineering Student focused on Cybersecurity, Cloud, Linux and DevSecOps.</desc>
+<rect x="1" y="1" width="838" height="306" rx="16" fill="#0c131d" stroke="#2c3e52"/>
+<line x1="580" y1="60" x2="580" y2="238" stroke="#131e2c" stroke-width="1"/>
+<line x1="604" y1="60" x2="604" y2="238" stroke="#131e2c" stroke-width="1"/>
+<line x1="628" y1="60" x2="628" y2="238" stroke="#131e2c" stroke-width="1"/>
+<line x1="652" y1="60" x2="652" y2="238" stroke="#131e2c" stroke-width="1"/>
+<line x1="676" y1="60" x2="676" y2="238" stroke="#131e2c" stroke-width="1"/>
+<line x1="700" y1="60" x2="700" y2="238" stroke="#131e2c" stroke-width="1"/>
+<line x1="724" y1="60" x2="724" y2="238" stroke="#131e2c" stroke-width="1"/>
+<line x1="748" y1="60" x2="748" y2="238" stroke="#131e2c" stroke-width="1"/>
+<line x1="772" y1="60" x2="772" y2="238" stroke="#131e2c" stroke-width="1"/>
+<line x1="796" y1="60" x2="796" y2="238" stroke="#131e2c" stroke-width="1"/>
+<line x1="575" y1="70" x2="812" y2="70" stroke="#131e2c" stroke-width="1"/>
+<line x1="575" y1="94" x2="812" y2="94" stroke="#131e2c" stroke-width="1"/>
+<line x1="575" y1="118" x2="812" y2="118" stroke="#131e2c" stroke-width="1"/>
+<line x1="575" y1="142" x2="812" y2="142" stroke="#131e2c" stroke-width="1"/>
+<line x1="575" y1="166" x2="812" y2="166" stroke="#131e2c" stroke-width="1"/>
+<line x1="575" y1="190" x2="812" y2="190" stroke="#131e2c" stroke-width="1"/>
+<line x1="575" y1="214" x2="812" y2="214" stroke="#131e2c" stroke-width="1"/>
+<line x1="575" y1="238" x2="812" y2="238" stroke="#131e2c" stroke-width="1"/>
+<text x="34" y="40" fill="#a3b4c7" font-family="Consolas, 'Liberation Mono', monospace" font-size="14" font-weight="400" text-anchor="start">PROFILE / FLACO332</text>
+<circle cx="744" cy="35" r="4" fill="#63dfd3" stroke="none" stroke-width="1"/>
+<text x="758" y="40" fill="#a3b4c7" font-family="Consolas, 'Liberation Mono', monospace" font-size="14" font-weight="400" text-anchor="start">~/</text>
+<line x1="34" y1="56" x2="806" y2="56" stroke="#2c3e52" stroke-width="1"/>
+<text x="34" y="99" fill="#63dfd3" font-family="Consolas, 'Liberation Mono', monospace" font-size="20" font-weight="400" text-anchor="start">$ open profile</text>
+<text x="30" y="172" fill="#edf4fa" font-family="'Segoe UI', Arial, sans-serif" font-size="78" font-weight="700" text-anchor="start">flaco332</text>
+<rect x="391" y="157" width="19" height="7" rx="0" fill="#63dfd3" stroke="none"/>
+<text x="34" y="216" fill="#a3b4c7" font-family="'Segoe UI', Arial, sans-serif" font-size="25" font-weight="400" text-anchor="start">Systems Engineering Student</text>
+<g transform="translate(625 90) scale(2.2)" fill="none" stroke="#63dfd3" stroke-width="6" stroke-linecap="square" stroke-linejoin="miter"><path d="M7 44V8H36M7 25H28M42 16L54 28L42 40"/><path d="M27 49H43" stroke-width="4"/></g>
+<text x="681" y="225" fill="#a3b4c7" font-family="Consolas, 'Liberation Mono', monospace" font-size="12" font-weight="400" text-anchor="middle">SYSTEMS / SECURITY</text>
+<line x1="34" y1="244" x2="806" y2="244" stroke="#2c3e52" stroke-width="1"/>
+<text x="34" y="280" fill="#63dfd3" font-family="Consolas, 'Liberation Mono', monospace" font-size="20" font-weight="400" text-anchor="start">CYBERSECURITY / CLOUD / LINUX / DEVSECOPS</text>
+</svg>

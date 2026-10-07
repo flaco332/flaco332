@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="440" height="300" viewBox="0 0 440 300" role="img" aria-labelledby="title desc">
+<title id="title">ONCA</title>
+<desc id="desc">DESKTOP / LOCAL DATA. Student, payment &amp; activity records. SQLite storage &amp; verified backups. Built with Python / Tkinter / SQLite.</desc>
+<rect x="1" y="1" width="438" height="298" rx="16" fill="#f7f9fc" stroke="#b9c8d8"/>
+<text x="26" y="33" fill="#4e6379" font-family="Consolas, 'Liberation Mono', monospace" font-size="13" font-weight="400" text-anchor="start">PROJECT / 03</text>
+<text x="410" y="35" fill="#00776e" font-family="'Segoe UI', Arial, sans-serif" font-size="23" font-weight="400" text-anchor="end">↗</text>
+<text x="26" y="77" fill="#16293b" font-family="'Segoe UI', Arial, sans-serif" font-size="28" font-weight="600" text-anchor="start">ONCA</text>
+<text x="26" y="104" fill="#00776e" font-family="Consolas, 'Liberation Mono', monospace" font-size="13" font-weight="400" text-anchor="start">DESKTOP / LOCAL DATA</text>
+<line x1="26" y1="124" x2="414" y2="124" stroke="#b9c8d8" stroke-width="1"/>
+<text x="26" y="158" fill="#16293b" font-family="'Segoe UI', Arial, sans-serif" font-size="19" font-weight="400" text-anchor="start">Student, payment &amp; activity records.</text>
+<text x="26" y="185" fill="#16293b" font-family="'Segoe UI', Arial, sans-serif" font-size="19" font-weight="400" text-anchor="start">SQLite storage &amp; verified backups.</text>
+<rect x="26" y="209" width="388" height="40" rx="6" fill="#eaf0f6" stroke="none"/>
+<text x="40" y="235" fill="#4e6379" font-family="Consolas, 'Liberation Mono', monospace" font-size="16" font-weight="400" text-anchor="start">Python / Tkinter / SQLite</text>
+<text x="26" y="277" fill="#00776e" font-family="Consolas, 'Liberation Mono', monospace" font-size="14" font-weight="400" text-anchor="start">interface  &gt;  data  &gt;  backup</text>
+</svg>

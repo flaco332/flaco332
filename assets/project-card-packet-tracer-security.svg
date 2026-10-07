@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="440" height="300" viewBox="0 0 440 300" role="img" aria-labelledby="title desc">
+<title id="title">Packet Tracer Security</title>
+<desc id="desc">DEFENSIVE / EXPERIMENTAL. Rule-based traffic analysis. Explainable alerts &amp; evidence replay. Built with Python / Scapy / Prolog.</desc>
+<rect x="1" y="1" width="438" height="298" rx="16" fill="#0c131d" stroke="#2c3e52"/>
+<text x="26" y="33" fill="#a3b4c7" font-family="Consolas, 'Liberation Mono', monospace" font-size="13" font-weight="400" text-anchor="start">PROJECT / 01</text>
+<text x="410" y="35" fill="#63dfd3" font-family="'Segoe UI', Arial, sans-serif" font-size="23" font-weight="400" text-anchor="end">↗</text>
+<text x="26" y="77" fill="#edf4fa" font-family="'Segoe UI', Arial, sans-serif" font-size="28" font-weight="600" text-anchor="start">Packet Tracer Security</text>
+<text x="26" y="104" fill="#63dfd3" font-family="Consolas, 'Liberation Mono', monospace" font-size="13" font-weight="400" text-anchor="start">DEFENSIVE / EXPERIMENTAL</text>
+<line x1="26" y1="124" x2="414" y2="124" stroke="#2c3e52" stroke-width="1"/>
+<text x="26" y="158" fill="#edf4fa" font-family="'Segoe UI', Arial, sans-serif" font-size="19" font-weight="400" text-anchor="start">Rule-based traffic analysis.</text>
+<text x="26" y="185" fill="#edf4fa" font-family="'Segoe UI', Arial, sans-serif" font-size="19" font-weight="400" text-anchor="start">Explainable alerts &amp; evidence replay.</text>
+<rect x="26" y="209" width="388" height="40" rx="6" fill="#131e2c" stroke="none"/>
+<text x="40" y="235" fill="#a3b4c7" font-family="Consolas, 'Liberation Mono', monospace" font-size="16" font-weight="400" text-anchor="start">Python / Scapy / Prolog</text>
+<text x="26" y="277" fill="#63dfd3" font-family="Consolas, 'Liberation Mono', monospace" font-size="14" font-weight="400" text-anchor="start">traffic  &gt;  rules  &gt;  evidence</text>
+</svg>
