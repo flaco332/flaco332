@@ -1,7 +1,7 @@
 # Diseño y mantenimiento
 
-La identidad combina una terminal con un panel de infraestructura: grafito,
-cian moderado, retículas discretas, líneas finas y tipografía de sistema.
+La identidad combina una terminal con un panel de infraestructura: negro grafito,
+acentos azul grisáceo, retículas discretas, líneas finas y tipografía de sistema.
 La variante clara utiliza fondo marfil, texto azul oscuro y cian de mayor contraste.
 El símbolo propio combina una F geométrica, un chevron y el cursor de una terminal.
 
@@ -11,6 +11,13 @@ organizan el stack y tres tarjetas enlazadas muestran proyectos reales.
 Los mapas radiales usan radios iguales: indican áreas de práctica e interés,
 sin atribuir niveles, porcentajes ni años de experiencia. BJJ queda como un
 detalle personal dentro del desplegable final.
+Un banner de seis líneas de arte de bloques, proporcionado por el usuario,
+aparece debajo de los mapas. Utiliza un fondo oscuro en ambos temas.
+Cada carácter se dibuja con formas SVG, conservando los espacios y la alineación
+sin depender de fuentes. El sombreado utiliza patrones locales de puntos.
+La fuente `scripts/terminal-banner.html` conserva el HTML proporcionado: se
+leen por separado el color y el fondo de cada carácter. Al generar el SVG,
+sus colores se adaptan a gris, grafito y azul marino mediante `BANNER_COLORS`.
 
 ## Archivos
 
@@ -21,6 +28,8 @@ README.md
 assets/
   banner-dark.svg
   banner-light.svg
+  skills-banner.svg
+  skills-banner-light.svg
   whoami.svg
   whoami-light.svg
   tech-stack-{security,cloud,code,systems}.svg
@@ -42,6 +51,7 @@ scripts/
   build_assets.py
   preview.py
   validate.py
+  terminal-banner.html
 ```
 
 ## Compatibilidad

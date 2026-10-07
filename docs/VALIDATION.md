@@ -2,8 +2,8 @@
 
 ## Archivos y contenido
 
-- Los 24 SVG se parsearon como XML válido y tienen `viewBox`, título y descripción.
-- Se comprobaron los 11 pares claro/oscuro usados por el README y sus dimensiones.
+- Los 26 SVG se parsearon como XML válido y tienen `viewBox`, título y descripción.
+- Se comprobaron los 12 pares claro/oscuro usados por el README y sus dimensiones.
 - Todos los assets referenciados existen; el respaldo de cada imagen es local.
 - El HTML del README está balanceado y usa `picture`, `source`, `img`, `a`, `p`,
   `details`, `summary` y `code`. No contiene CSS ni JavaScript personalizado.
@@ -16,7 +16,7 @@
 ## Comprobación visual
 
 La vista previa se renderizó en Chromium con 320, 375, 768 y 1000 px de ancho,
-para los dos esquemas de color. Las ocho combinaciones cargaron las 11 imágenes,
+para los dos esquemas de color. Las ocho combinaciones cargaron las 12 imágenes,
 eligieron los assets del tema correcto y no presentaron desbordamiento horizontal.
 También se abrieron los desplegables para verificar que el código permaneciera
 dentro de su contenedor. Se comprobaron los botones de cambio de tema.

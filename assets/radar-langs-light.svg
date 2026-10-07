@@ -1,9 +1,9 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="440" height="468" viewBox="0 0 440 468" role="img" aria-labelledby="title desc">
 <title id="title">Language map</title>
-<desc id="desc">Python, C, C++, TypeScript, JavaScript, Bash. Equal spokes express coverage, without scores or percentages.</desc>
+<desc id="desc">Python, C, C++, TypeScript, JavaScript, Bash.</desc>
 <rect x="1" y="1" width="438" height="466" rx="16" fill="#f7f9fc" stroke="#b9c8d8"/>
 <text x="26" y="34" fill="#00776e" font-family="Consolas, 'Liberation Mono', monospace" font-size="14" font-weight="400" text-anchor="start">07</text>
-<text x="65" y="34" fill="#4e6379" font-family="Consolas, 'Liberation Mono', monospace" font-size="14" font-weight="400" text-anchor="start">languages / equal spokes</text>
+<text x="65" y="34" fill="#4e6379" font-family="Consolas, 'Liberation Mono', monospace" font-size="14" font-weight="400" text-anchor="start">languages / toolkit</text>
 <line x1="26" y1="52" x2="414" y2="52" stroke="#b9c8d8" stroke-width="1"/>
 <text x="26" y="87" fill="#16293b" font-family="'Segoe UI', Arial, sans-serif" font-size="25" font-weight="600" text-anchor="start">Language map</text>
 <circle cx="220" cy="248" r="37" fill="none" stroke="#b9c8d8" stroke-width="1"/>
@@ -36,5 +36,5 @@
 <circle cx="220" cy="248" r="31" fill="#d9efec" stroke="#00776e" stroke-width="1"/>
 <text x="220" y="254" fill="#00776e" font-family="Consolas, 'Liberation Mono', monospace" font-size="22" font-weight="400" text-anchor="middle">&lt;/&gt;</text>
 <line x1="26" y1="420" x2="414" y2="420" stroke="#b9c8d8" stroke-width="1"/>
-<text x="26" y="448" fill="#4e6379" font-family="Consolas, 'Liberation Mono', monospace" font-size="13" font-weight="400" text-anchor="start">COVERAGE / NO PROFICIENCY SCORES</text>
+<text x="26" y="448" fill="#4e6379" font-family="Consolas, 'Liberation Mono', monospace" font-size="13" font-weight="400" text-anchor="start">SYSTEMS / SCRIPTING / WEB</text>
 </svg>

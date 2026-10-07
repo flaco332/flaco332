@@ -1,17 +1,17 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="440" height="370" viewBox="0 0 440 370" role="img" aria-labelledby="title desc">
 <title id="title">Cybersecurity</title>
 <desc id="desc">ENVIRONMENT: Kali Linux; TRAFFIC / ANALYSIS: Nmap · Wireshark · Scapy, Snort · Bettercap; PRACTICE: Network analysis · packet inspection, IDS concepts</desc>
-<rect x="1" y="1" width="438" height="368" rx="16" fill="#0c131d" stroke="#2c3e52"/>
-<text x="26" y="34" fill="#63dfd3" font-family="Consolas, 'Liberation Mono', monospace" font-size="14" font-weight="400" text-anchor="start">02</text>
-<text x="65" y="34" fill="#a3b4c7" font-family="Consolas, 'Liberation Mono', monospace" font-size="14" font-weight="400" text-anchor="start">stack/security</text>
-<line x1="26" y1="52" x2="414" y2="52" stroke="#2c3e52" stroke-width="1"/>
-<text x="26" y="87" fill="#edf4fa" font-family="'Segoe UI', Arial, sans-serif" font-size="25" font-weight="600" text-anchor="start">Cybersecurity</text>
-<text x="26" y="124" fill="#63dfd3" font-family="Consolas, 'Liberation Mono', monospace" font-size="13" font-weight="400" text-anchor="start">ENVIRONMENT</text>
-<text x="26" y="151" fill="#edf4fa" font-family="'Segoe UI', Arial, sans-serif" font-size="18" font-weight="400" text-anchor="start">Kali Linux</text>
-<text x="26" y="187" fill="#63dfd3" font-family="Consolas, 'Liberation Mono', monospace" font-size="13" font-weight="400" text-anchor="start">TRAFFIC / ANALYSIS</text>
-<text x="26" y="214" fill="#edf4fa" font-family="'Segoe UI', Arial, sans-serif" font-size="18" font-weight="400" text-anchor="start">Nmap · Wireshark · Scapy</text>
-<text x="26" y="241" fill="#edf4fa" font-family="'Segoe UI', Arial, sans-serif" font-size="18" font-weight="400" text-anchor="start">Snort · Bettercap</text>
-<text x="26" y="277" fill="#63dfd3" font-family="Consolas, 'Liberation Mono', monospace" font-size="13" font-weight="400" text-anchor="start">PRACTICE</text>
-<text x="26" y="304" fill="#edf4fa" font-family="'Segoe UI', Arial, sans-serif" font-size="18" font-weight="400" text-anchor="start">Network analysis · packet inspection</text>
-<text x="26" y="331" fill="#edf4fa" font-family="'Segoe UI', Arial, sans-serif" font-size="18" font-weight="400" text-anchor="start">IDS concepts</text>
+<rect x="1" y="1" width="438" height="368" rx="16" fill="#090c10" stroke="#293440"/>
+<text x="26" y="34" fill="#8aabb5" font-family="Consolas, 'Liberation Mono', monospace" font-size="14" font-weight="400" text-anchor="start">02</text>
+<text x="65" y="34" fill="#93a1b2" font-family="Consolas, 'Liberation Mono', monospace" font-size="14" font-weight="400" text-anchor="start">stack/security</text>
+<line x1="26" y1="52" x2="414" y2="52" stroke="#293440" stroke-width="1"/>
+<text x="26" y="87" fill="#d8e0e8" font-family="'Segoe UI', Arial, sans-serif" font-size="25" font-weight="600" text-anchor="start">Cybersecurity</text>
+<text x="26" y="124" fill="#8aabb5" font-family="Consolas, 'Liberation Mono', monospace" font-size="13" font-weight="400" text-anchor="start">ENVIRONMENT</text>
+<text x="26" y="151" fill="#d8e0e8" font-family="'Segoe UI', Arial, sans-serif" font-size="18" font-weight="400" text-anchor="start">Kali Linux</text>
+<text x="26" y="187" fill="#8aabb5" font-family="Consolas, 'Liberation Mono', monospace" font-size="13" font-weight="400" text-anchor="start">TRAFFIC / ANALYSIS</text>
+<text x="26" y="214" fill="#d8e0e8" font-family="'Segoe UI', Arial, sans-serif" font-size="18" font-weight="400" text-anchor="start">Nmap · Wireshark · Scapy</text>
+<text x="26" y="241" fill="#d8e0e8" font-family="'Segoe UI', Arial, sans-serif" font-size="18" font-weight="400" text-anchor="start">Snort · Bettercap</text>
+<text x="26" y="277" fill="#8aabb5" font-family="Consolas, 'Liberation Mono', monospace" font-size="13" font-weight="400" text-anchor="start">PRACTICE</text>
+<text x="26" y="304" fill="#d8e0e8" font-family="'Segoe UI', Arial, sans-serif" font-size="18" font-weight="400" text-anchor="start">Network analysis · packet inspection</text>
+<text x="26" y="331" fill="#d8e0e8" font-family="'Segoe UI', Arial, sans-serif" font-size="18" font-weight="400" text-anchor="start">IDS concepts</text>
 </svg>

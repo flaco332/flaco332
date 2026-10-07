@@ -73,7 +73,7 @@ def main():
         else:
             assert (ROOT / link).is_file(), f"Missing local asset: {link}"
     svgs = list((ROOT / "assets").glob("*.svg"))
-    assert len(svgs) == 24, f"Expected 24 SVGs, found {len(svgs)}"
+    assert len(svgs) == 26, f"Expected 26 SVGs, found {len(svgs)}"
     for path in svgs:
         raw = path.read_text(encoding="utf-8")
         root = ET.fromstring(raw)

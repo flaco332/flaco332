@@ -116,11 +116,15 @@ systems: [Linux, Git, GitHub Actions, VS Code, WSL]
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="assets/radar-langs.svg">
     <source media="(prefers-color-scheme: light)" srcset="assets/radar-langs-light.svg">
-    <img src="assets/radar-langs.svg" alt="Language map: C, C++, Python, TypeScript, JavaScript and Bash, shown with equal spokes." width="400">
+    <img src="assets/radar-langs.svg" alt="Language map: C, C++, Python, TypeScript, JavaScript and Bash." width="400">
   </picture>
 </p>
 
-These maps show **areas of practice and interest**, with equal spokes for every area. They represent coverage, without proficiency scores or usage percentages.
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/skills-banner.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/skills-banner-light.svg">
+  <img src="assets/skills-banner.svg" alt="Six-line terminal block art in gray and navy on a dark background." width="840">
+</picture>
 
 ## `$ connect --socials`
 

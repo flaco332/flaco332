@@ -1,15 +1,16 @@
 """Build original, self-contained profile SVGs with Python's standard library."""
 
 from html import escape
+from html.parser import HTMLParser
 from math import cos, sin, pi
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 ASSETS = ROOT / "assets"
 THEMES = {
-    "dark": dict(bg="#0c131d", panel="#131e2c", line="#2c3e52",
-                 text="#edf4fa", muted="#a3b4c7", accent="#63dfd3",
-                 secondary="#b2a7ef", soft="#1a323b"),
+    "dark": dict(bg="#090c10", panel="#11171e", line="#293440",
+                 text="#d8e0e8", muted="#93a1b2", accent="#8aabb5",
+                 secondary="#a5a1b7", soft="#18242b"),
     "light": dict(bg="#f7f9fc", panel="#eaf0f6", line="#b9c8d8",
                   text="#16293b", muted="#4e6379", accent="#00776e",
                   secondary="#66539d", soft="#d9efec"),
@@ -150,9 +151,99 @@ def project(p, key):
     return svg(440, 300, title, f"{category}. {' '.join(rows)} Built with {tags}.", body, p)
 
 
+BANNER_COLORS = {
+    "#000000": "#090c12",  # near-black canvas
+    "#ffffff": "#d6d8dc",  # pale gray highlight
+    "#aaaaaa": "#9da1a8",  # neutral gray
+    "#555555": "#505661",  # graphite gray
+    "#55ffff": "#64728c",  # blue-gray, replacing bright cyan
+    "#00aaaa": "#233451",  # navy blue
+    "#aa0000": "#1c2942",  # deep navy
+    "#aa00aa": "#4e5b72",  # slate gray
+    "#ffff55": "#aab0ba",  # silver gray
+}
+
+
+def html_color(value):
+    value = value.lower()
+    if len(value) == 4:
+        value = "#" + "".join(char * 2 for char in value[1:])
+    return BANNER_COLORS[value]
+
+
+class TerminalArt(HTMLParser):
+    """Read character colors and backgrounds from the supplied HTML fragment."""
+
+    def __init__(self):
+        super().__init__(convert_charrefs=True)
+        self.rows = [[]]
+        self.styles = []
+
+    def handle_starttag(self, tag, attrs):
+        if tag not in {"pre", "span"}:
+            raise ValueError(f"Unsupported terminal art tag: {tag}")
+        style = dict(self.styles[-1]) if self.styles else {
+            "color": "#ffffff", "background-color": "#000000"}
+        for declaration in dict(attrs).get("style", "").split(";"):
+            if ":" in declaration:
+                key, value = declaration.split(":", 1)
+                if key.strip() in {"color", "background-color"}:
+                    style[key.strip()] = value.strip()
+        self.styles.append(style)
+
+    def handle_endtag(self, tag):
+        self.styles.pop()
+
+    def handle_data(self, value):
+        if not self.styles:
+            return
+        style = self.styles[-1]
+        fg, bg = html_color(style["color"]), html_color(style["background-color"])
+        for char in value:
+            if char == "\n":
+                self.rows.append([])
+            else:
+                self.rows[-1].append((char, fg, bg))
+
+
+def skills_banner(p):
+    art = TerminalArt()
+    art.feed((ROOT / "scripts" / "terminal-banner.html").read_text(encoding="utf-8"))
+    cell_w, cell_h = 20, 39  # Courier's width and the supplied 1.17 line height
+    left = (840 - max(map(len, art.rows)) * cell_w) / 2
+    body = ['<g shape-rendering="crispEdges">']
+    # Both glyph foreground and cell background matter for inverse block art.
+    for row, value in enumerate(art.rows):
+        for col, (char, fg, bg) in enumerate(value):
+            x, y = left + col * cell_w, 30 + row * cell_h
+            body.append(rect(x, y, cell_w, cell_h, bg))
+            if char == "█":
+                body.append(rect(x, y, cell_w, cell_h, fg))
+            elif char in {"▀", "▄"}:
+                body.append(rect(x, y + (cell_h / 2 if char == "▄" else 0),
+                                 cell_w, cell_h / 2, fg))
+            elif char in {"▐", "▌"}:
+                body.append(rect(x + (cell_w / 2 if char == "▐" else 0), y,
+                                 cell_w / 2, cell_h, fg))
+            elif char in {"░", "▒", "▓"}:
+                # A fixed 4x4 ordered-dither tile gives 25%, 50% and 75% fill.
+                threshold = {"░": 4, "▒": 8, "▓": 12}[char]
+                tile = ((0, 8, 2, 10), (12, 4, 14, 6),
+                        (3, 11, 1, 9), (15, 7, 13, 5))
+                for dy in range(4):
+                    for dx in range(4):
+                        if tile[dy][dx] < threshold:
+                            body.append(rect(x + dx * cell_w / 4, y + dy * cell_h / 4,
+                                             cell_w / 4, cell_h / 4, fg))
+            elif char != " ":
+                raise ValueError(f"Unsupported terminal art character: {char!r}")
+    body.append('</g>')
+    return svg(840, 294, "Terminal block art", "Six-line Unicode block-art banner in gray and navy, preserving the foreground and background layout supplied by the profile owner.", body, p)
+
+
 def radar(p, languages=False):
     title = "Language map" if languages else "Focus map"
-    subtitle = "languages / equal spokes" if languages else "skills / connected areas"
+    subtitle = "languages / toolkit" if languages else "skills / connected areas"
     body = header(p, "07" if languages else "06", subtitle, title)
     cx, cy = 220, 248
     for radius in (37, 67, 98):
@@ -173,8 +264,8 @@ def radar(p, languages=False):
     body += [circle(cx, cy, 31, p["soft"], p["accent"]),
              text(cx, cy+6, "</>" if languages else "~/", p["accent"], 22, True, anchor="middle"),
              line(26, 420, 414, 420, p["line"]),
-             text(26, 448, "COVERAGE / NO PROFICIENCY SCORES", p["muted"], 13, True)]
-    return svg(440, 468, title, ", ".join(labels).replace("Linux /,", "Linux / DevSecOps,") + ". Equal spokes express coverage, without scores or percentages.", body, p)
+             text(26, 448, "SYSTEMS / SCRIPTING / WEB" if languages else "NETWORKS / SYSTEMS / VISION", p["muted"], 13, True)]
+    return svg(440, 468, title, ", ".join(labels).replace("Linux /,", "Linux / DevSecOps,") + ".", body, p)
 
 
 def logo(p):
@@ -188,6 +279,8 @@ def main():
         content = {f"banner-{mode}": banner(palette), f"whoami{suffix}": whoami(palette),
                    f"radar-skills{suffix}": radar(palette), f"radar-langs{suffix}": radar(palette, True),
                    f"logo{suffix}": logo(palette)}
+        banner_palette = palette if mode == "dark" else dict(THEMES["dark"], bg="#151b22", line="#35414e")
+        content[f"skills-banner{suffix}"] = skills_banner(banner_palette)
         for key in STACKS:
             content[f"tech-stack-{key}{suffix}"] = stack_card(palette, key)
         for key in PROJECTS:

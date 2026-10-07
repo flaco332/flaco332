@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="440" height="468" viewBox="0 0 440 468" role="img" aria-labelledby="title desc">
 <title id="title">Focus map</title>
-<desc id="desc">Cybersecurity, Cloud, Linux / DevSecOps, Networking, Low-level, CV / ML. Equal spokes express coverage, without scores or percentages.</desc>
+<desc id="desc">Cybersecurity, Cloud, Linux / DevSecOps, Networking, Low-level, CV / ML.</desc>
 <rect x="1" y="1" width="438" height="466" rx="16" fill="#f7f9fc" stroke="#b9c8d8"/>
 <text x="26" y="34" fill="#00776e" font-family="Consolas, 'Liberation Mono', monospace" font-size="14" font-weight="400" text-anchor="start">06</text>
 <text x="65" y="34" fill="#4e6379" font-family="Consolas, 'Liberation Mono', monospace" font-size="14" font-weight="400" text-anchor="start">skills / connected areas</text>
@@ -38,5 +38,5 @@
 <circle cx="220" cy="248" r="31" fill="#d9efec" stroke="#00776e" stroke-width="1"/>
 <text x="220" y="254" fill="#00776e" font-family="Consolas, 'Liberation Mono', monospace" font-size="22" font-weight="400" text-anchor="middle">~/</text>
 <line x1="26" y1="420" x2="414" y2="420" stroke="#b9c8d8" stroke-width="1"/>
-<text x="26" y="448" fill="#4e6379" font-family="Consolas, 'Liberation Mono', monospace" font-size="13" font-weight="400" text-anchor="start">COVERAGE / NO PROFICIENCY SCORES</text>
+<text x="26" y="448" fill="#4e6379" font-family="Consolas, 'Liberation Mono', monospace" font-size="13" font-weight="400" text-anchor="start">NETWORKS / SYSTEMS / VISION</text>
 </svg>
